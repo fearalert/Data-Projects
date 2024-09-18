@@ -1,4 +1,5 @@
-sqlalchemy
+sqlite3
 apache-airflow
 pandas
-pymysql  # if using MySQL
+pymysql
+python-dotenv
