@@ -4,6 +4,8 @@
 
 This project is designed to automate data cleansing and transformation processes. It fetches raw data from a database, cleanses and transforms it, and saves the cleaned data back into the database. Additionally, the system exports the cleaned data to a CSV file for easy visualization in Power BI or other data analysis tools.
 
+---
+
 ### Key Features
 - **Data Fetching**: Retrieve raw data from the database.
 - **Data Cleansing**: Remove duplicates and handle missing values.
