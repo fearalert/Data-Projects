@@ -111,3 +111,38 @@ Then, import the data from the CSV file into the ```raw_data``` table.
 
 ## 7. python3 scripts/data_cleansing.py
 Now, run the Python script ```data_cleansing.py``` to fetch, cleanse, and transform the data:
+
+
+# Apache Airflow Setup for Automated Data Cleansing System
+
+This guide provides step-by-step instructions for configuring and running **Apache Airflow** for the **Automated Data Cleansing System**.
+
+---
+
+## Install Apache Airflow
+
+First, install Apache Airflow and its dependencies.
+
+```bash
+pip install apache-airflow
+```
+
+## Initialize Airflow database
+```airflow db init```
+
+## Start Airflow web server (default port: 8080)
+```sh
+airflow webserver --port 8080
+```
+## Start Airflow scheduler
+```sh
+airflow scheduler
+```
+## Create an Airflow user (if authentication is enabled)
+```SQL
+airflow users create --username admin --firstname FIRST_NAME --lastname LAST_NAME --role Admin --email admin@example.com --password admin_password
+```
+
+This markdown guide includes all the necessary steps and Airflow commands for setting up, managing, and running the **Automated Data Cleansing System** DAG.
+
+
