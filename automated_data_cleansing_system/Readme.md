@@ -52,7 +52,7 @@ data-cleansing-project/
 
 ### Steps to Run the Project
 
-1. **Clone the Repository**
+## 1. **Clone the Repository**
 ```bash
    git clone https://github.com/fearalert/Data-Projects
    cd automated_data_cleansing_system
