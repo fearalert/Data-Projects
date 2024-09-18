@@ -1,0 +1,4 @@
+sqlalchemy
+apache-airflow
+pandas
+pymysql  # if using MySQL
